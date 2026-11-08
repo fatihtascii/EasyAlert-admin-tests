@@ -1,0 +1,11 @@
+.venv/
+.env
+.auth/
+__pycache__/
+test-results/
+*.pyc
+reports/
+.ruff_cache/
+.pytest_cache/
+_to_delete/
+openapi.json
