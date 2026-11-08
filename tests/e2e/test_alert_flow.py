@@ -11,7 +11,7 @@ from utils.markers import known_bug
 
 pytestmark = [pytest.mark.e2e, pytest.mark.data_producing]
 
-WH01 = ("WH-01: Webhook ucu dokümanda zorunlu denen alanlar (eventId, title, severity, status, timestamp) eksik olsa da "
+WH01 = ("EE-8 (WH-01): Webhook ucu dokümanda zorunlu denen alanlar (eventId, title, severity, status, timestamp) eksik olsa da "
         "olayı kabul edip incident açıyor (200 accepted); 4xx doğrulama hatası beklenir")
 
 

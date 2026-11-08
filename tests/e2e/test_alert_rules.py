@@ -16,7 +16,7 @@ from utils.random_data import unique_name
 
 pytestmark = [pytest.mark.e2e, pytest.mark.data_producing]
 
-AR01 = ("AR-01: Alert rule'un Set Priority, Add Tags ve Set Field aksiyonları kaydediliyor ama kurala uyan alarmdan "
+AR01 = ("EE-6 (AR-01): Alert rule'un Set Priority, Add Tags ve Set Field aksiyonları kaydediliyor ama kurala uyan alarmdan "
         "açılan incident'a uygulanmıyor (öncelik boş, etiket eklenmiyor, alan değişmiyor); aynı koşulla Suppress çalışıyor")
 ACTION_CANDIDATES = {
     "suppress": ["suppress", "drop"],

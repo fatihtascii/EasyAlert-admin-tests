@@ -16,7 +16,7 @@ pytestmark = [pytest.mark.e2e, pytest.mark.data_producing]
 L2_DELAY_MIN = 1
 WAIT_L2_S = 150  # L2 gecikmesi (60 sn) + zamanlayıcı aralığı payı
 INITIAL_DELAY_S = 30
-ESC01 = ("ESC-01: Elle Escalate işlemi incident'ı 2. seviyeye taşıyor (currentLevel=2) ama 2. seviye hedeflerine "
+ESC01 = ("EE-5 (ESC-01): Elle Escalate işlemi incident'ı 2. seviyeye taşıyor (currentLevel=2) ama 2. seviye hedeflerine "
          "bildirim göndermiyor; otomatik eskalasyonda aynı hedefe L2 bildirimi gidiyor")
 
 

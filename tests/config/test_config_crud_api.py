@@ -17,10 +17,10 @@ pytestmark = pytest.mark.data_producing
 
 NEVER = "otomasyon-hicbir-alarm-eslesmez"
 
-CFG01 = "CFG-01: Routing kuralında 30 sn altındaki başlangıç gecikmesi (ör. 10 sn) API'de kabul ediliyor"
-CFG02 = "CFG-02: Routing kuralında kullanılan escalation policy silinebiliyor; kural silinmiş policy'ye bağlı kalıyor"
-CFG04 = "CFG-04: Entegrasyon API cevabındaki webhookUrl localhost:8000 adresini gösteriyor"
-CFG03 = "CFG-03: Çizelge geçersiz saat dilimiyle (Mars/Olympus) oluşturulabiliyor"
+CFG01 = "EE-9 (CFG-01): Routing kuralında 30 sn altındaki başlangıç gecikmesi (ör. 10 sn) API'de kabul ediliyor"
+CFG02 = "EE-7 (CFG-02): Routing kuralında kullanılan escalation policy silinebiliyor; kural silinmiş policy'ye bağlı kalıyor"
+CFG04 = "EE-11 (CFG-04): Entegrasyon API cevabındaki webhookUrl localhost:8000 adresini gösteriyor"
+CFG03 = "EE-10 (CFG-03): Çizelge geçersiz saat dilimiyle (Mars/Olympus) oluşturulabiliyor"
 
 
 def _ok(r) -> dict:
