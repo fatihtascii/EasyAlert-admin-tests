@@ -79,7 +79,7 @@ def test_search_finds_incident(shared_page: Page, incident, route):
     query = _search(page, route.tag)
     assert f"search={route.tag}" in query, query
     expect(_row(page, incident["id"])).to_be_visible(timeout=15000)
-    row = page.locator("main tr, main [role=row]").filter(has=_row(page, incident["id"])).first
+    row = page.locator("main tr, main [role=row]").filter(has=page.locator(f"a[href='/incidents/{incident['id']}']")).first
     expect(row).to_contain_text(f"#{incident['number']}")
     expect(row).to_contain_text(incident["title"])
     rows = page.locator("main tr, main [role=row]").filter(has=page.locator("a[href^='/incidents/']"))
